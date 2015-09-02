@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+
+<overlay id="notifierOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="imdbRatingOverlay.js"/>
+
+	<popup id="contentAreaContextMenu">
+		<menuitem id="imdbMenuEntry" label="Search IMDb" insertbefore="context-viewpartialsource-selection"/>
+		<!--<menuseparator insertbefore="context-copy"/>-->
+	</popup>
+	
+</overlay>

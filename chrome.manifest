@@ -1,0 +1,4 @@
+content     imdbrating chrome/content/
+resource    imdbrating modules/
+overlay     chrome://browser/content/browser.xul chrome://imdbrating/content/imdbRatingOverlay.xul
+locale      imdbrating  en-US chrome/locale/en-US/
